@@ -1,0 +1,21 @@
+.env
+.env.build
+node_modules/*
+!node_modules/react-stripe-checkout/dist/main.js
+.next
+terraform/terraform.tfvars
+terraform/freshly
+terraform/freshly.pub
+next.config.js
+now.json
+
+# .tfstate files
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*backup
+terraform/\.terraform/plugins/darwin_amd64/
+
+\.DS_Store
+
+*.tfstate
+*idk
